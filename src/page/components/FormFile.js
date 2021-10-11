@@ -13,7 +13,6 @@ const FormFile = () => {
     /* UseState */
     const [file, setFile] = useState("");
     const [fileName, setFileName] = useState("");
-    const [progress, setProgress] = useState(0);
     const [erros, setErros] = useState(false);
     /* Select file function */
     const selectFile = async (e) => {
@@ -163,9 +162,7 @@ const FormFile = () => {
                                 <div>
                                     <div className="fileUpload">
                                         <div>
-                                            {/* <embed src={file} width="200" height="100" type="application/pdf" /> */}
                                             <span> <i className="fa fa-file"></i></span> <span >{fileName}</span>
-
                                         </div>
                                         <div>
                                             <span>  <i className="fa fa-close text-danger " onClick={(e) => deleteSelectedFile(e)}></i></span>
