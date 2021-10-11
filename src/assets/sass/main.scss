@@ -1,0 +1,83 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Color 
+$base-color:#d44633;
+$base-color-text-one:white;
+$base-color-text-two:#000;
+
+// Color button
+$base-color-background-button:$base-color;
+$base-color-text-button:$base-color-text-one;
+
+.header{
+  background-color:$base-color;
+  color:$base-color-text-one;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+a{
+    color:$base-color-text-two;
+    text-decoration: none;
+}
+a:hover{
+    color:$base-color;
+}
+ul{
+    justify-content: center;
+    display: flex; 
+}
+li{
+    margin-left: 1rem;
+}
+h2{
+    color:$base-color-text-two;
+    font-size: 1.3rem;
+}
+span{
+    margin-left:10px;
+}
+.fileUploadLabel{
+    margin-top:10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+i{
+    cursor: pointer;
+}
+.custom-file-upload {
+  
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color:black;
+}
+
+.uploadzone {
+    padding: 30px;
+    border: 1px dashed $base-color-text-two;
+    background-color:$base-color-text-one;
+    color:$base-color-text-two ;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+.fileUpload{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    padding: 19px 23px 19px 20px;
+}
+.base-btn-color{
+   background-color: $base-color-background-button;
+   color:$base-color-text-button;
+}
+
+.fa-edit{
+      margin-left:1rem;
+  }
+.fa-trash{
+    margin-left:1rem;
+  }
