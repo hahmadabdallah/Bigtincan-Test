@@ -1,1 +1,2 @@
 *.html linguist-detectable=true
+*.react js linguist-detectable=false
