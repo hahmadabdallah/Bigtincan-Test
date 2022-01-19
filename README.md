@@ -13,7 +13,7 @@
     </ul>
 ## Running Steps
    ### Frontend
-    $ git clone https://github.com/hahmadabdallah/Bigtincan-Test.git
+    $ git clone https://github.com/hahmadabdallah/react-crud-file.git
     $ npm install
     $ npm start
     
